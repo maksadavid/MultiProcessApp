@@ -7,6 +7,6 @@ Steps to reproduce the bug:
 3. Reopen the backgrounded app
 
 There are 2 issues:
-  a) Crash because mismatched mappings and notifications
-  b) The database connections caches are out of sync
+  - Crash because mismatched mappings and notifications
+  - The database connections caches are out of sync
   
