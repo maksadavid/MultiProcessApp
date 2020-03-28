@@ -1,0 +1,89 @@
+PODS:
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - SQLCipher (4.3.0):
+    - SQLCipher/standard (= 4.3.0)
+  - SQLCipher/common (4.3.0)
+  - SQLCipher/standard (4.3.0):
+    - SQLCipher/common
+  - YapDatabase/SQLCipher (3.1.4):
+    - YapDatabase/SQLCipher/Core (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions (= 3.1.4)
+  - YapDatabase/SQLCipher/Core (3.1.4):
+    - CocoaLumberjack
+    - SQLCipher (>= 3.4.0)
+  - YapDatabase/SQLCipher/Extensions (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/ActionManager (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/AutoView (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/CloudCore (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/CloudKit (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/ConnectionPool (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/ConnectionProxy (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/CrossProcessNotification (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/FilteredView (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/FullTextSearch (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/Hooks (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/ManualView (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/Relationships (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/RTreeIndex (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/SearchResultsView (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/SecondaryIndex (= 3.1.4)
+    - YapDatabase/SQLCipher/Extensions/View (= 3.1.4)
+  - YapDatabase/SQLCipher/Extensions/ActionManager (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/AutoView
+  - YapDatabase/SQLCipher/Extensions/AutoView (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/View
+  - YapDatabase/SQLCipher/Extensions/CloudCore (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/CloudKit (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/ConnectionPool (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/ConnectionProxy (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/CrossProcessNotification (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/FilteredView (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/View
+  - YapDatabase/SQLCipher/Extensions/FullTextSearch (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/Hooks (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/ManualView (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/View
+  - YapDatabase/SQLCipher/Extensions/Relationships (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/RTreeIndex (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/SearchResultsView (3.1.4):
+    - YapDatabase/SQLCipher/Core
+    - YapDatabase/SQLCipher/Extensions/AutoView
+    - YapDatabase/SQLCipher/Extensions/FullTextSearch
+  - YapDatabase/SQLCipher/Extensions/SecondaryIndex (3.1.4):
+    - YapDatabase/SQLCipher/Core
+  - YapDatabase/SQLCipher/Extensions/View (3.1.4):
+    - YapDatabase/SQLCipher/Core
+
+DEPENDENCIES:
+  - YapDatabase/SQLCipher (~> 3.1.4)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - SQLCipher
+    - YapDatabase
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  SQLCipher: d305a7bd9af4b64f095c79bdc1a1fa50f2a15116
+  YapDatabase: e9cf10cbf11d91f7c6dc723b0ff54fa8a04e3c8d
+
+PODFILE CHECKSUM: 6ebe82c16a45b32f2b9696335d5d8802222aa9cb
+
+COCOAPODS: 1.8.4
